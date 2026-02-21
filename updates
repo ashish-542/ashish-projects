@@ -1,2 +1,9 @@
 New Project: Walkins App for Salon.
-Features: Consent form based on services. PDF of forms on admin panel. Digital Signature on the form.
+Features: 
+- Consent form based on services.
+- PDF of forms on admin panel.
+- Digital Signature on the form.
+- Localization: English and spanish.
+-- Customers will see a language toggle on the main dashboard to switch between English and Spanish.
+-- All intake forms, consent releases, validation messages, PDFs, and SMS notifications will be translated.
+-- The Admin panel remains English-only.
