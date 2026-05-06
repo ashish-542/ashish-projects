@@ -7,3 +7,9 @@ Features:
 -- Customers will see a language toggle on the main dashboard to switch between English and Spanish.
 -- All intake forms, consent releases, validation messages, PDFs, and SMS notifications will be translated.
 -- The Admin panel remains English-only.
+
+
+Project - Aappointment app for hospital:
+- Issue - whatsapp messages not getting received on international numbers
+- Reason - 3rd party API that we use adds default 91 prefix is + is not there.
+- Solution - Added method that detects phone number type is its indian or not: Indian numbers as 91xxxxxxxxxx (no "+"), international numbers as +ccxxxxxxxxxx (with "+"). 
